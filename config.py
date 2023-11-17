@@ -10,7 +10,7 @@ API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 MONGO_URL = getenv("", "")
-DURATION_LIMIT = int(getenv("90", "90"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
 OWNER_ID = int(getenv("6845799926"))
 
